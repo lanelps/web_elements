@@ -1,5 +1,5 @@
 {
-  "name": "flip-display",
+  "name": "react-tinderbox",
   "version": "1.0.0",
   "description": "Boilerplate create by me",
   "main": "index.js",
@@ -19,6 +19,7 @@
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
+    "babel-preset-es2015": "^6.24.1",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3",
