@@ -6,27 +6,27 @@ React boilerplate to make new projects easier to get started
 
 ### Dependencies
 
-#### React
+#### React (with JSX)
 
 - react
 
 - react-dom
 
-- JSX
-
 ### Dev Dependencies
 
 #### Babel
 
-- babel
+- @babel/cli
 
-- babel-core
+- @babel/core
+
+- @babel/plugin-proposal-class-properties
+
+- @babel/preset-env
+
+- @babel/preset-react
 
 - babel-loader
-
-- babel-preset-env
-
-- babel-preset-react
 
 #### webpack
 
