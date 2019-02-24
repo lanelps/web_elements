@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 
 export default class App extends Component {
   render() {
-    return <div>🔥react-tinderbox🔥</div>
+    return (
+      <React.Fragment>
+        <h1>🔥react-tinderbox🔥</h1>
+      </React.Fragment>
+    )
   }
 }
