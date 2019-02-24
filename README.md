@@ -12,6 +12,8 @@ React boilerplate to make new projects easier to get started
 
 - react-dom
 
+- JSX
+
 ### Dev Dependencies
 
 #### Babel
