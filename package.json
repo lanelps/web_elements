@@ -1,6 +1,7 @@
 {
   "name": "flip-display",
   "version": "1.0.0",
+  "description": "Boilerplate create by me",
   "main": "index.js",
   "author": "Lane le Prevost-Smith <lanelps@gmail.com>",
   "license": "MIT"
