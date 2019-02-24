@@ -2,7 +2,7 @@
 
 Starter boilerplate to make new projects easier to start off
 
-### This boilerplate contains
+## This boilerplate contains
 
 ### Dependencies
 
