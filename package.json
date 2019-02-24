@@ -4,5 +4,9 @@
   "description": "Boilerplate create by me",
   "main": "index.js",
   "author": "Lane le Prevost-Smith <lanelps@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  }
 }
