@@ -4,7 +4,7 @@
   "description": "Boilerplate create by me",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --hot --inline",
+    "start": "webpack-dev-server --mode development --hot",
     "build": "webpack --mode production"
   },
   "author": "Lane le Prevost-Smith <lanelps@gmail.com>",
