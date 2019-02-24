@@ -1,6 +1,6 @@
 # 🔥react-tinderbox🔥
 
-Reacct boilerplate to make new projects easier to get started
+React boilerplate to make new projects easier to get started
 
 ## This boilerplate contains
 
