@@ -8,32 +8,32 @@ Starter boilerplate to make new projects easier to start off
 
 #### React
 
-- -react
+- react
 
-- -react-dom
+- react-dom
 
 ### Dev Dependencies
 
 #### Babel
 
-- -babel
+- babel
 
-- -babel-core
+- babel-core
 
-- -babel-loader
+- babel-loader
 
-- -babel-preset-env
+- babel-preset-env
 
-- -babel-preset-react
+- babel-preset-react
 
 #### webpack
 
-- -webpack
+- webpack
 
-- -webpack-cli
+- webpack-cli
 
-- -webpack-dev-server
+- webpack-dev-server
 
-- -html-webpack-plugin
+- html-webpack-plugin
 
 created by Lane Wirihana Le Prevost-Smith
