@@ -3,7 +3,9 @@ import React from 'react'
 export default function Test1() {
   return (
     <React.Fragment>
-      <span className="subtitle">align-items: center</span>
+      {/* <div className="subtitle">
+        <span>align-items: center</span>
+      </div> */}
       <div className="test1">
         <div className="box" />
         <div className="box" />
