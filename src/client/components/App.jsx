@@ -9,6 +9,14 @@ const App = () => {
     <React.Fragment>
       <Test1 />
       <Test2 />
+      <Test1 />
+      <Test2 />
+      <Test1 />
+      <Test2 />
+      <Test1 />
+      <Test2 />
+      <Test1 />
+      <Test2 />
     </React.Fragment>
   )
 }

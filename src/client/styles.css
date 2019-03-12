@@ -1,51 +1,63 @@
 * {
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
+  margin: 0;
+  padding: 0;
   font-family: 'Anonymous Pro', monospace;
   background: black;
   color: white;
   font-size: 12px;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   overflow-y: hidden;
 }
 
 #app {
-  display: grid;
-  grid-template-columns: [item] 1fr;
-  grid-gap: 20px;
   border: 1px solid white;
+  overflow-y: scroll;
   margin: 20px;
   padding: 20px;
+  height: calc(100vh - 80px);
+
+  display: grid;
+  grid-column-gap: 1rem;
+  grid-row-gap: 20px;
+  /* grid-template-rows: repeat(3, 0.2fr 0.2fr); */
+  grid-template-columns: repeat(auto-fit, minmax(auto, 100px));
 }
 
 #app > div {
   padding: 20px;
   border: 1px solid white;
+  display: flex;
+  width: 100%;
 }
 
 .test1 {
-  grid-column: item;
+  /* grid-row: box; */
+  /* grid-column: sidebar; */
   display: flex;
+  align-items: center;
 }
 
 .test2 {
-  grid-column: item;
+  /* grid-row: body; */
+  /* grid-column: sidebar; */
   display: flex;
+  align-items: flex-end;
 }
 
 .box {
-  margin: 2px;
+  margin: 1px;
   width: 10px;
   height: 10px;
   background-color: white;
 
-  transition: 0.4s;
+  transition: 0.2s;
 }
 
 .box:hover {
-  background-color: black;
+  height: 50px;
 }
