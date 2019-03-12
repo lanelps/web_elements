@@ -1,41 +1,5 @@
-# 🔥react-tinderbox🔥
+# web_elements
 
-React boilerplate to make new projects easier to get started
+This is a repo for all my css experients that could be used on any future projects or websites.
 
-## This boilerplate contains
-
-### Dependencies
-
-#### React (with JSX)
-
-- react
-
-- react-dom
-
-### Dev Dependencies
-
-#### Babel
-
-- @babel/cli
-
-- @babel/core
-
-- @babel/plugin-proposal-class-properties
-
-- @babel/preset-env
-
-- @babel/preset-react
-
-- babel-loader
-
-#### webpack
-
-- webpack
-
-- webpack-cli
-
-- webpack-dev-server
-
-- html-webpack-plugin
-
-created by Lane Wirihana Le Prevost-Smith
+These are interactive elements.
