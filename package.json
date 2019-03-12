@@ -12,8 +12,7 @@
   },
   "author": "Lane Le Prevost-Smith <lanelps@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "gh-pages": "^2.0.1",
+  "peerDependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
   },
@@ -24,6 +23,7 @@
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
+    "gh-pages": "^2.0.1",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3",
