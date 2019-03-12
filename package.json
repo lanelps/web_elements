@@ -8,7 +8,7 @@
     "start": "webpack-dev-server --hot",
     "build": "webpack --mode production",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Lane Le Prevost-Smith <lanelps@gmail.com>",
   "license": "MIT",
