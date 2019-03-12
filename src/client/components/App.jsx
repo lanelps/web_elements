@@ -11,15 +11,6 @@ const App = () => {
       <Test1 />
       <Test2 />
       <Test3 />
-      <Test1 />
-      <Test2 />
-      <Test3 />
-      <Test1 />
-      <Test2 />
-      <Test3 />
-      <Test1 />
-      <Test2 />
-      <Test3 />
     </React.Fragment>
   )
 }
