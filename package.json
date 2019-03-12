@@ -7,7 +7,9 @@
   "homepage": "https://lanelps.github.io/web_elements/",
   "scripts": {
     "start": "webpack-dev-server --hot",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Lane Le Prevost-Smith <lanelps@gmail.com>",
   "license": "MIT",
@@ -27,7 +29,5 @@
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.0"
-  },
-  "predeploy": "yarn build",
-  "deploy": "gh-pages -d build"
+  }
 }
