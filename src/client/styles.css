@@ -1,3 +1,33 @@
-h1 {
-  color: green;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Anonymous Pro', monospace;
+  background: black;
+  color: white;
+  font-size: 12px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100vw;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  border: 1px solid white;
+  margin: 20px;
+  padding: 20px;
+}
+
+#app > div {
+  padding: 20px;
+}
+
+.test1 {
+  background: black;
+  border: 1px solid white;
 }
