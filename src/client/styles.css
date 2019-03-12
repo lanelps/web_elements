@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  user-select: none;
+  -webkit-overflow-scrolling: touch;
 }
 
 html,
@@ -11,6 +13,7 @@ body {
   color: white;
   font-size: 12px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
   overflow-y: hidden;
 }
 
