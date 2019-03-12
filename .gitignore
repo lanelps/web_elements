@@ -64,3 +64,5 @@ typings/
 bundle.*
 
 .node_modules
+
+build
