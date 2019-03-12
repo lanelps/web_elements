@@ -2,5 +2,5 @@
 
 This is a repo for all my experimental CSS elements.
 
-Not entirely sure if that it's necessary but I've used Webpack to bundle everything.
+Not entirely sure if it's necessary but I've used Webpack to bundle everything.
 It's helped me learn more about how Webpack bundles my React code for use on GitHub pages
