@@ -1,11 +1,17 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Route } from 'react-router-dom'
 
-export default class App extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <h1>Oi mother fucker</h1>
-      </React.Fragment>
-    )
-  }
+import Nav from './Nav'
+import Test1 from './Test1'
+
+const App = () => {
+  return (
+    <React.Fragment>
+      Hey
+      <Route Nav path="/" Component={Nav} />
+      <Route Test1 path="/test-1" Component={Test1} />
+    </React.Fragment>
+  )
 }
+
+export default App
