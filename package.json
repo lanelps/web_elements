@@ -1,15 +1,18 @@
 {
-  "name": "react-tinderbox",
+  "name": "web_elements",
   "version": "1.0.0",
+  "private": false,
   "description": "Boilerplate create by me",
   "main": "index.js",
+  "homepage": "https://lanelps.github.io/web_elements/",
   "scripts": {
     "start": "webpack-dev-server --hot",
     "build": "webpack --mode production"
   },
-  "author": "Lane le Prevost-Smith <lanelps@gmail.com>",
+  "author": "Lane Le Prevost-Smith <lanelps@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
   },
@@ -24,5 +27,7 @@
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.0"
-  }
+  },
+  "predeploy": "yarn build",
+  "deploy": "gh-pages -d build"
 }
