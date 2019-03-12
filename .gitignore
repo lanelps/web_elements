@@ -63,6 +63,7 @@ typings/
 # Webpack bundles
 bundle.*
 
-.node_modules
+# Node Modules folder
+node_modules/
 
 build
