@@ -2,6 +2,8 @@
 
 This is a repo for all my experimental CSS elements.
 
+When cloning, run `yarn` to install all dependencies. Then `yarn start` to start up the server.
+
 Not entirely sure if it's necessary but I've used Webpack to bundle everything.
 It's helped me learn more about how Webpack bundles my React code for use on GitHub pages
 
