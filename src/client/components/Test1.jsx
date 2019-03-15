@@ -1,16 +1,15 @@
 import React from 'react'
 
-export default function Test1() {
+const Test1 = () => {
+  const box = []
+  for (var i = 0; i < 6; i++) {
+    box.push(<div key={i} className="box" />)
+  }
   return (
     <React.Fragment>
-      <div className="test1">
-        <div className="box" />
-        <div className="box" />
-        <div className="box" />
-        <div className="box" />
-        <div className="box" />
-        <div className="box" />
-      </div>
+      <div className="test1">{box}</div>
     </React.Fragment>
   )
 }
+
+export default Test1

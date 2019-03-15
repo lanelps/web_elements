@@ -42,9 +42,8 @@ body {
 }
 
 #app > div {
-  padding: 20px;
+  padding: 19px;
   border: 1px solid white;
-  display: flex;
   width: 100px;
   height: 100px;
 }
@@ -57,6 +56,11 @@ body {
 .test2 {
   display: flex;
   align-items: flex-end;
+}
+
+.test3 {
+  display: flex;
+  align-items: flex-start;
 }
 
 .box {
@@ -74,6 +78,42 @@ body {
 
 .test4 {
   display: grid;
-  /* grid-template-rows: repeat(3, 0.2fr 0.2fr);
-  grid-template-columns: repeat(3, 0.2fr 0.2fr); */
+  grid-template-columns: repeat(auto-fit, minmax(5px, 1fr));
+}
+
+.four {
+  background-color: white;
+  transition: 2s;
+}
+
+.four:hover {
+  background-color: black;
+}
+
+.test5 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1px, 1fr));
+}
+
+.five {
+  background-color: white;
+  transition: 0.5s;
+}
+
+.five:hover {
+  background-color: black;
+}
+
+.test6 {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(10px, 10px));
+  grid-template-columns: repeat(auto-fit, minmax(10px, 10px));
+}
+
+.six {
+  background-color: white;
+}
+
+.six:hover {
+  background-color: black;
 }
