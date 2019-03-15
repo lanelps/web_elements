@@ -1,21 +1,21 @@
 import React from 'react'
 
-import Test1 from './Test1'
-import Test2 from './Test2'
-import Test3 from './Test3'
-import Test4 from './Test4'
-import Test5 from './Test5'
-import Test6 from './Test6'
+import Element1 from './Element1'
+import Element2 from './Element2'
+import Element3 from './Element3'
+import Element4 from './Element4'
+import Element5 from './Element5'
+import Element6 from './Element6'
 
 const App = () => {
   return (
     <React.Fragment>
-      <Test1 />
-      <Test2 />
-      <Test3 />
-      <Test4 />
-      <Test5 />
-      <Test6 />
+      <Element1 />
+      <Element2 />
+      <Element3 />
+      <Element4 />
+      <Element5 />
+      <Element6 />
     </React.Fragment>
   )
 }
