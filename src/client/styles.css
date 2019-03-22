@@ -139,3 +139,19 @@ body {
 .eight:hover {
   transform: rotate(540deg);
 }
+
+.test9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nine {
+  width: 10%;
+  height: 10%;
+  background-color: white;
+  transition: 1s;
+}
+
+.nine:hover {
+  transform: scale(10, 10);
+}
