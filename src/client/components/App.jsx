@@ -6,6 +6,7 @@ import Element3 from './Element3'
 import Element4 from './Element4'
 import Element5 from './Element5'
 import Element6 from './Element6'
+import Element7 from './Element7'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Element4 />
       <Element5 />
       <Element6 />
+      <Element7 />
     </React.Fragment>
   )
 }
